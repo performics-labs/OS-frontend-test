@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - button "OS Demo Entity" [ref=e10] [cursor=pointer]:
+            - generic [ref=e12]: OS
+            - generic [ref=e14]: Demo Entity
+      - generic [ref=e15]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "New Chat" [ref=e21] [cursor=pointer]:
+              - /url: /chat/new
+              - img [ref=e22]
+              - generic [ref=e23]: New Chat
+          - listitem [ref=e24]:
+            - link "Projects" [ref=e25] [cursor=pointer]:
+              - /url: /projects
+              - img [ref=e26]
+              - generic [ref=e28]: Projects
+          - listitem [ref=e29]:
+            - link "Knowledge Base" [ref=e30] [cursor=pointer]:
+              - /url: /knowledge-base
+              - img [ref=e31]
+              - generic [ref=e35]: Knowledge Base
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - link "History" [ref=e41] [cursor=pointer]:
+              - /url: /chat/d4c52823-c407-40f8-aec9-7928ab09a646
+              - img [ref=e42]
+              - generic [ref=e46]: History
+          - listitem [ref=e47]:
+            - link "Design System" [ref=e48] [cursor=pointer]:
+              - /url: /design-system
+              - img [ref=e49]
+              - generic [ref=e55]: Design System
+          - listitem [ref=e56]:
+            - link "Tools Showcase" [ref=e57] [cursor=pointer]:
+              - /url: /tools-showcase
+              - img [ref=e58]
+              - generic [ref=e60]: Tools Showcase
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - button "Profile picture for test@example.com test@example.com" [ref=e64] [cursor=pointer]:
+            - img "Profile picture for test@example.com" [ref=e65]
+            - generic [ref=e66]: test@example.com
+            - img [ref=e67]
+      - button "Toggle Sidebar" [ref=e69]
+    - main [ref=e70]:
+      - button "Toggle Sidebar" [ref=e72] [cursor=pointer]:
+        - img
+        - generic [ref=e73]: Toggle Sidebar
+      - generic [ref=e78]:
+        - log [ref=e79]:
+          - generic [ref=e81]:
+            - generic [ref=e83]:
+              - paragraph [ref=e85]: Hello! This is a test message. Please respond with a short greeting.
+              - generic [ref=e86]:
+                - button [ref=e87] [cursor=pointer]:
+                  - img
+                - button [ref=e88] [cursor=pointer]:
+                  - img
+            - generic [ref=e91]:
+              - paragraph [ref=e93]: Hello! 👋 Nice to meet you! How can I help you today?
+              - paragraph [ref=e95]: 8:54:30 AM
+              - generic [ref=e96]:
+                - button [ref=e97] [cursor=pointer]:
+                  - img
+                - button [ref=e98] [cursor=pointer]:
+                  - img
+                - button [ref=e99] [cursor=pointer]:
+                  - img
+                - button [ref=e100] [cursor=pointer]:
+                  - img
+        - generic [ref=e103]:
+          - textbox "Chat message input" [active] [ref=e104]:
+            - /placeholder: Ask a follow-up question...
+          - generic [ref=e105]:
+            - button "Attach files" [ref=e106] [cursor=pointer]:
+              - img
+            - combobox [disabled] [ref=e107]:
+              - generic [ref=e108]: Default Assistant
+              - img [ref=e109]
+            - button "Send message" [disabled]:
+              - img
+  - region "Notifications alt+T"
+```

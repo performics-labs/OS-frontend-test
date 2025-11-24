@@ -1,0 +1,13 @@
+export { AuthPage } from './auth/AuthPage';
+export { ChatPage } from './ChatPage';
+export { ChatNewPage } from './ChatNewPage';
+export { NotFoundPage } from './NotFoundPage';
+export { ComponentShowcase } from './ComponentShowcase';
+export { ProjectListPage } from './projects/ProjectListPage';
+export { default as ComingSoonPage } from './ComingSoonPage';
+export { ProjectDetailPage } from './ProjectDetailPage';
+export { DesignSystemPage } from './DesignSystemPage';
+export { ToolsShowcasePage } from './ToolsShowcasePage';
+export { KnowledgeBasePage } from './KnowledgeBasePage';
+export { AIElementsTestPage } from './AIElementsTestPage';
+export { AIElementsChatPage } from './AIElementsChatPage';

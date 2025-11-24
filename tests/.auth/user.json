@@ -1,0 +1,24 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://localhost:5000",
+      "localStorage": [
+        {
+          "name": "onesuite-theme",
+          "value": "dark"
+        },
+        {
+          "name": "",
+          "value": "{\"state\":{\"models\":null},\"version\":9}"
+        }
+      ],
+      "sessionStorage": [
+        {
+          "name": "auth-storage",
+          "value": "{\"state\":{\"user\":{\"user_id\":\"6702eef7-0342-41c2-ac4d-1814c105c1fd\",\"email\":\"test@example.com\",\"display_name\":\"Test User\",\"roles\":[],\"consent\":{\"telemetry\":true,\"model_training\":false,\"marketing\":false},\"session\":{\"sid\":\"ywqsQeuIIn0xPlPcE9SAbqaPq1WkhmAFnLEgzd_Xz2w\",\"expires_at\":\"2025-11-22T05:09:11.818970+00:00\"}},\"isAuthenticated\":true},\"version\":1}"
+        }
+      ]
+    }
+  ]
+}
