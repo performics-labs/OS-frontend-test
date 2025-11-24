@@ -15,6 +15,10 @@ frontend:
     paths:
       - node_modules/**/*
       - .vite/**/*
+redirects:
+  - source: /<*>
+    target: /index.html
+    status: 200
 customHeaders:
   - pattern: '**/*'
     headers:
